@@ -255,6 +255,7 @@
     height: auto;
     margin: 0 auto; 
     display: flex;
+    gap: 30px;
     }
 
     .main-text{
@@ -265,7 +266,7 @@
             color: #6E7191;
 
             /* body 22 */
-            font-family: "Golos";
+            font-family: 'Golos Text';
             font-size: 22px;
             font-style: normal;
             font-weight: 400;
@@ -273,7 +274,7 @@
         }
 
         .small-text{
-            width: 631px;
+            width: 600px;
             display: block;
             color: #6E7191;
             font-family: 'Golos';
@@ -281,5 +282,61 @@
             font-style: normal;
             font-weight: 400;
             line-height: 22px; /* 122.222% */
+        }
+    }
+
+    .footer{
+        max-width: 1920px;
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-networks{
+        width: 1410px;
+        height: auto;
+        margin: 0 auto;
+
+        h1{
+            color:  #6E7191;
+            margin: 120px 0 30px 0;
+
+            /* H2 */
+            font-family: "Golos";
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 36px; /* 112.5% */
+        }
+
+        .logos{
+            gap: 10px;
+        }
+    }
+
+    @media screen and (max-width: 1335px) {
+        .header{
+            width: 100%;
+            height: auto;
+
+            .header__input-wraper{
+                display: none;
+            }
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        .header{
+            width: 100%;
+            height: auto;
+
+            .header-container__bottom-part{
+                .bottom-part--menu{
+                    display: none;
+                }
+            }
+        }
+
+        .main-part{
+            flex-direction: column;
         }
     }

@@ -340,25 +340,25 @@ template {
   display: none;
 }
 
-/* golos-text-regular - latin */
+/* golos-text-regular - cyrillic_latin */
 @font-face {
   font-display: swap;
   /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Golos Text';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/golos-text-v4-latin-regular.woff2") format("woff2");
+  src: url("../fonts/golos-text-v4-cyrillic_latin-regular.woff2") format("woff2");
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-/* golos-text-700 - latin */
+/* golos-text-700 - cyrillic_latin */
 @font-face {
   font-display: swap;
   /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Golos Text';
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/golos-text-v4-latin-700.woff2") format("woff2");
+  src: url("../fonts/golos-text-v4-cyrillic_latin-700.woff2") format("woff2");
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
@@ -704,6 +704,7 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 30px;
 }
 
 .main-text .big-text {
@@ -711,7 +712,7 @@ template {
   height: 121px;
   color: #6E7191;
   /* body 22 */
-  font-family: "Golos";
+  font-family: 'Golos Text';
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -720,7 +721,7 @@ template {
 }
 
 .main-text .small-text {
-  width: 631px;
+  width: 600px;
   display: block;
   color: #6E7191;
   font-family: 'Golos';
@@ -729,5 +730,59 @@ template {
   font-weight: 400;
   line-height: 22px;
   /* 122.222% */
+}
+
+.footer {
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+}
+
+.footer-networks {
+  width: 1410px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.footer-networks h1 {
+  color: #6E7191;
+  margin: 120px 0 30px 0;
+  /* H2 */
+  font-family: "Golos";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  /* 112.5% */
+}
+
+.footer-networks .logos {
+  gap: 10px;
+}
+
+@media screen and (max-width: 1335px) {
+  .header {
+    width: 100%;
+    height: auto;
+  }
+  .header .header__input-wraper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    width: 100%;
+    height: auto;
+  }
+  .header .header-container__bottom-part .bottom-part--menu {
+    display: none;
+  }
+  .main-part {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.css.map */
