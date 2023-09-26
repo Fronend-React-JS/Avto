@@ -504,4 +504,129 @@ template {
   line-height: 16px;
   /* 133.333% */
 }
+
+.header-container__bottom-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-container__bottom-part .dinamik {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 174px;
+  padding: 8px 8px 9px 8px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4px;
+  border-radius: 40px;
+  background: #F1F1F1;
+  color: #A0A3BD;
+  font-family: "Golos";
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header-container__bottom-part .language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4px;
+}
+
+.header-container__bottom-part .language p {
+  color: #6E7191;
+  font-family: "Golos";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  /* 114.286% */
+}
+
+.header-container__bottom-part .bottom-part--menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 28px;
+}
+
+.header-container__bottom-part .bottom-part--menu li {
+  list-style: none;
+  color: #6E7191;
+  font-family: "Golos";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+  line-height: 30px;
+  /* 214.286% */
+}
+
+.header-container__bottom-part .get-touch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-container__bottom-part .get-touch .networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+  margin-right: 32px;
+}
+
+.header-container__bottom-part span {
+  color: #F56E1E;
+  font-family: "Golos";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  /* 187.5% */
+  margin-right: 24px;
+}
+
+.header-container__bottom-part .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  width: 154px;
+  padding: 0px 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #F56E1E;
+  color: #FFF;
+  font-family: "Golos";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  /* 214.286% */
+}
 /*# sourceMappingURL=style.css.map */
