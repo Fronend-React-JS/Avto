@@ -801,7 +801,55 @@ template {
   .main__container .title span {
     display: none;
   }
-  .nazad {
+  .main__container .title .nazad {
+    color: #6E7191;
+    /* Lable */
+    font-family: "Golos";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 175% */
     display: block;
+    cursor: pointer;
+  }
+  .main__container .title h1 {
+    color: #4E4B66;
+    width: 220px;
+    height: auto;
+    /* H1 */
+    font-family: "Golos";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    /* 111.765% */
+    margin-bottom: 16px;
+  }
+  .main__container .title .big-text span {
+    color: #6E7191;
+    /* body 20 */
+    font-family: "Golos";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 130% */
+  }
+  .main__container .title .small-text {
+    color: #6E7191;
+    /* body 18 */
+    font-family: "Golos";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 122.222% */
+  }
+  .main-picture {
+    display: none;
+  }
+  .footer {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
